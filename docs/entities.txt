@@ -36,5 +36,5 @@ rankingTemporadaJogador[]   jogadores
 7 rankingTemporadaJogador
 id      rankingTemporadaJogadorID
 id      jogadorID
-number  vitoria
-number  derrota
+number  totalVitorias
+number  totalDerrotas

@@ -1,7 +1,7 @@
-function playerMatchCreate(playerID, matchID, isWinner) {
-    return {
-        "playerID": playerID,
-        "matchID": matchID,
-        "isWinner": isWinner
-    }
+function PlayerMatch(playerID, matchID, isWinner) {
+    this.playerID = playerID;
+    this.matchID = matchID;
+    this.isWinner = isWinner;
+
+    return this;
 }
